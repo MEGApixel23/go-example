@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"golang.org/x/tour/tree"
-	"sync"
 	"sort"
+	"sync"
 )
 
 var numberOfNodes int = 10
@@ -65,5 +65,5 @@ func Same(t1, t2 *tree.Tree) bool {
 }
 
 func main() {
-	fmt.Println( Same(tree.New(1), tree.New(1)) )
+	fmt.Println(Same(tree.New(1), tree.New(1)))
 }
